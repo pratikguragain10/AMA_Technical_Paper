@@ -95,11 +95,11 @@
 ---
 
 ## 5. What Is the Difference Between WHERE and HAVING in SQL?
-    | Feature                     | WHERE                     | HAVING                         |
-    |----------------------------|---------------------------|--------------------------------|
-    | Purpose                    | Filters rows              | Filters results after aggregation |
-    | Works With                 | Non-aggregated data       | Aggregated data                |
-    | Use of Aggregate Functions | Not allowed               | Allowed                        |
+    | Feature                    | WHERE                    | HAVING                            |
+    |----------------------------|--------------------------|--------------------------------   |
+    | Purpose                    | Filters rows             | Filters results after aggregation |
+    | Works With                 | Non-aggregated data      | Aggregated data                   |
+    | Use of Aggregate Functions | Not allowed              | Allowed                           |
 
 
 - Example
@@ -147,7 +147,7 @@ HAVING COUNT(*) > 5;
 
 ## 9. What Is the Difference Between DELETE and TRUNCATE?
 
-    | Type         | Usage                                      |
+    | Type         | Usage                                       |
     |--------------|---------------------------------------------|
     | Inline CSS   | Inside HTML tags using `style` attribute    |
     | Internal CSS | Inside `<style>` tag within `<head>`        |
