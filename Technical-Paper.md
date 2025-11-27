@@ -95,10 +95,12 @@
 ---
 
 ## 5. What Is the Difference Between WHERE and HAVING in SQL?
-    | Feature |	WHERE |	HAVING |
-    | Purpose |	Filters rows |	Filters result after aggregation |
-    | Works With |	Non-aggregated data |	Aggregated data |
-    | Use of Aggregate Functions |	Not allowed |	Allowed |
+    | Feature                     | WHERE                     | HAVING                         |
+    |----------------------------|---------------------------|--------------------------------|
+    | Purpose                    | Filters rows              | Filters results after aggregation |
+    | Works With                 | Non-aggregated data       | Aggregated data                |
+    | Use of Aggregate Functions | Not allowed               | Allowed                        |
+
 
 - Example
 
@@ -145,19 +147,20 @@ HAVING COUNT(*) > 5;
 
 ## 9. What Is the Difference Between DELETE and TRUNCATE?
 
-    | DELETE |	TRUNCATE |
-    | Removes selected rows |	Removes all rows |
-    | Can use WHERE |	Cannot use WHERE
-    | Slower, logs row-by-row |	Faster, minimal logging |
-    | Rollback supported |	Rollback not always supported |
+    | Type         | Usage                                      |
+    |--------------|---------------------------------------------|
+    | Inline CSS   | Inside HTML tags using `style` attribute    |
+    | Internal CSS | Inside `<style>` tag within `<head>`        |
+    | External CSS | Linking `.css` file using `<link>`          |
 
 ---
 
 ## 10. What Is the Difference Between Padding and Margin?
 
-    | Padding |	Margin |
-    | Space inside an element (around content) |	Space outside an element (around border) |
-    | Affects element size |	Affects element spacing outside |
+    | Padding                                      | Margin                                         |
+    |----------------------------------------------|------------------------------------------------|
+    | Space inside an element (around content)     | Space outside an element (around border)       |
+    | Affects element size                         | Affects element spacing outside                |
 
 ---
 
