@@ -138,10 +138,11 @@ HAVING COUNT(*) > 5;
     - Class InvoiceCalculator should only compute invoice, not print or save it.
 
 ## 8. What Are the Three Ways to Apply CSS?
-    | Type |	Usage |
-    | Inline CSS |	Inside HTML tags using style attribute |
-    | Internal CSS |	Inside <style> tag within <head> |
-    | External CSS |	Linking .css file using <link> |
+    | Type         |	Usage                                  |
+    |--------------|-------------------------------------------|
+    | Inline CSS   |	Inside HTML tags using style attribute |
+    | Internal CSS |	Inside <style> tag within <head>       |
+    | External CSS |	Linking .css file using <link>         |
 
 ---
 
